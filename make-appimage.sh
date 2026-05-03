@@ -14,7 +14,21 @@ export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun /usr/bin/c1541 \
+/usr/bin/cartconv \
+/usr/bin/petcat \
+/usr/bin/vsid \
+/usr/bin/x128 \
+/usr/bin/x64 \
+/usr/bin/x64dtv \
+/usr/bin/x64sc \
+/usr/bin/xcbm2 \
+/usr/bin/xcbm5x0 \
+/usr/bin/xpet \
+/usr/bin/xplus4 \
+/usr/bin/xscpu64 \
+/usr/bin/xvic \
+usr/share/vice
 
 # Additional changes can be done in between here
 
