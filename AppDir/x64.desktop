@@ -4,6 +4,6 @@ Name=VICE (x64)
 Comment=Commodore 64 emulator
 Exec=x64
 Terminal=false
-Icon=vice-x64
+Icon=CBM_Logo
 StartupWMClass=
 Categories=Game;Emulator;
